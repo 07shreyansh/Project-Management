@@ -1,9 +1,7 @@
 {
-    "verbose":true,
-    "ignore":["./client"],
-    "excemap":{
-        "rb":"ruby",
-        "pde":"processing --sketch={{pwd}} --run"
-    }
-   
-}
+    "watch": ["server"],
+    "ext": "js,json",
+    "ignore": ["client/*"],
+    "exec": "node server/server.js" 
+  }
+  
