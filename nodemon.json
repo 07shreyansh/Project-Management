@@ -1,7 +1,10 @@
 {
-    "watch": ["server"],
-    "ext": "js,json",
-    "ignore": ["client/*"],
-    "exec": "node server/server.js" 
-  }
-  
+  "watch": [
+    "server"
+  ],
+  "ext": "js,json",
+  "ignore": [
+    "client/*"
+  ],
+  "exec": "node server/server.js"
+}

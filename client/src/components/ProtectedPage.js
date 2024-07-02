@@ -68,7 +68,7 @@ function ProtectedPage({ children }) {
       <div>
         <div className="grad flex justify-between items-center text-white px-5 py-4">
           <h1 className="text-2xl cursor-pointer" onClick={() => navigate("/")}>
-            WMWA
+            Project Manager
           </h1>
 
           <div className="flex items-center bg-white px-5 py-2 rounded">
